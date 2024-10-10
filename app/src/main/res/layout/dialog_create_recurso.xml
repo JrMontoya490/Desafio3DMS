@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/et_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Título"/>
+
+        <EditText
+            android:id="@+id/et_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"/>
+
+        <EditText
+            android:id="@+id/et_tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tipo"/>
+
+        <EditText
+            android:id="@+id/et_enlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enlace"/>
+
+        <EditText
+            android:id="@+id/et_imagen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Imagen"/>
+
+        <Button
+            android:id="@+id/btn_guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ED8761"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:text="Guardar"/>
+
+        <Button
+            android:id="@+id/btn_cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ED8761"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:text="Cancelar"/>
+    </LinearLayout>
+</ScrollView>
